@@ -21,6 +21,10 @@ package com.leetcode.easy._88;
  * 如果p1所指的值大于p2所指的值，那么当前指针值curP为p1所指的值，p1和curP分别往前移一步
  * 否则的话，当前指针值curP为p2所指的值，p2和curP分别往前移一步
  * 最后从num2中添加缺失的值到数组num1中
+ *
+ * 复杂度分析：
+ * 时间复杂度 : O((n + m)log(n + m)。
+ * 空间复杂度 : O(1)。
  */
 public class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {

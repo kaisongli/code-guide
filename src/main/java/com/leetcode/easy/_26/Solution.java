@@ -21,6 +21,12 @@ package com.leetcode.easy._26;
  * 如果快慢指针的数值相等，那就快指针往前走一步
  * 否则的话，将慢指针的下一个数值指向快指针的数值，然后快慢指针分别往前走一步
  *
+ * 复杂度分析
+ *
+ * 时间复杂度：O(n)，假设数组的长度是 n，那么 i 和 j 分别最多遍历 n 步。
+ *
+ * 空间复杂度：O(1)。
+ *
  */
 public class Solution {
     public int removeDuplicates(int[] nums) {
